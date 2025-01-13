@@ -1,28 +1,49 @@
 name: Update Rules
+
 on:
+
   push:
+
   workflow_dispatch:
 
 env:
+
   GITHUBTOKEN: ${{ secrets.GITHUBTOKEN }}
 
 jobs:
+
   Pushed:
+
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@main                     
-      - name: Git push assets to coding
+
+      - uses: actions/checkout@main
+
+      - name: Make Rules and Git push assets to github
+
         run: |
-          rm -rf .git/
+
+          bash ./make.sh
+
           git init
+
           git config --local user.name "action"
+
           git config --local user.email "action@github.com"
+
           git branch -m main
-          git add .
-          git commit -m "Updated at $(date)"
-          git remote add origin "https://${{ secrets.CODING_TokenUser }}:${{ secrets.CODING_Token }}@e.coding.net/damengzhu/banad/banad.git"
-          #git fetch --unshallow origin
-          git push -u -f origin main
+
+          git add --all
+
+          git commit -m "Updated at $(TZ=UTC-8 date +'%Y-%m-%d %H:%M:%S')（北京时间）"
+
+          git push --force -u origin          
+
+          
+
       - name: Manual-Update AdRules Repository
+
         run: |
+
           bash ./manual-update.sh
