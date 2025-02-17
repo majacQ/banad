@@ -1,15 +1,15 @@
-# 瞎弄的规则
-**酷安：大萌主**
+# 轻量广告拦截规则
+**酷安: [大萌主](http://www.coolapk.com/u/843395)**
 # 介绍
-* 适用于 x浏览器 的去广告规则（**兼容大部分浏览器和AdGuard客户端和AdGuard与uBlock Origin浏览器扩展**)
-* 主要去除手机盗版网站广告
+* 轻量去广告规则（**兼容大部分浏览器和AdGuard客户端和AdGuard与uBlock Origin浏览器扩展**)
+* 主要去除色情悬浮广告
 
 ## 规则链接：
-`https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt` [订阅到AdBlock或AdGuard](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt)
-### coding 镜像
-`https://damengzhu.coding.net/p/banad/d/banad/git/raw/main/jiekouAD.txt` [订阅到AdBlock或AdGuard](https://subscribe.adblockplus.org/?location=https://damengzhu.coding.net/p/banad/d/banad/git/raw/main/jiekouAD.txt)
-### IQDNS提供的RAW镜像：
-`https://raw.iqiq.io/damengzhu/banad/main/jiekouAD.txt` [订阅到AdBlock或AdGuard](https://subscribe.adblockplus.org/?location=https://raw.iqiq.io/damengzhu/banad/main/jiekouAD.txt)
+[https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt](https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt) 
+### 镜像: 
+[https://slink.ltd/https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt](https://slink.ltd/https://raw.githubusercontent.com/damengzhu/banad/main/jiekouAD.txt)
 
-## 反馈
-- **酷安: 大萌主**
+## 反馈: 
+🐧群: [715582626](https://jq.qq.com/?_wv=1027&k=1jx8rV2k) 
+ 
+
